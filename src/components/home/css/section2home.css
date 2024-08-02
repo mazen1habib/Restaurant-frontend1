@@ -1,0 +1,48 @@
+.sec2-home-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 80vh;
+}
+.sec2-home-container h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 45px;
+}
+.sec2-home-container .sec2-data-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.sec2-home-container .sec2-data-container .sec2-data {
+  border: 2px solid #dbdfd0;
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+.sec2-home-container .sec2-data-container .sec2-data h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.sec2-home-container .sec2-data-container .sec2-data .img-sec2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: rgb(226, 223, 223);
+}
+.sec2-home-container .sec2-data-container .sec2-data h4 {
+  color: red;
+}

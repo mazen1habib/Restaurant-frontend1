@@ -1,0 +1,45 @@
+.section4-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  gap: 20px;
+}
+.section4-container h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 45px;
+}
+.section4-container .data-section4-container {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.section4-container .data-section4-container .data-section4 {
+  width: 340px;
+  height: 340px;
+  background-color: #f9f9f7;
+  border-radius: 10px;
+  padding: 20px;
+}
+.section4-container .data-section4-container .data-section4 h4 {
+  color: red;
+  font-weight: 600;
+  font-size: 20px;
+}
+.section4-container .data-section4-container .data-section4 p {
+  color: rgba(0, 0, 0, 0.7);
+}
+.section4-container
+  .data-section4-container
+  .data-section4
+  .user-data-section4 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

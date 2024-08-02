@@ -1,0 +1,120 @@
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.menu-container h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 65px;
+}
+.menu-container p {
+  color: rgba(59, 58, 58, 0.8);
+}
+/* Small very */
+@media (max-width: 767px) {
+  .menu-container ul li {
+    width: 55px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .menu-container ul .active {
+    width: 55px;
+    height: 30px;
+    font-size: 10px;
+  }
+}
+/* Small */
+@media (min-width: 768px) {
+  .menu-container ul li {
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+  }
+  .menu-container ul .active {
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .menu-container ul li {
+    width: 110px;
+    height: 40px;
+  }
+  .menu-container ul .active {
+    width: 110px;
+    height: 40px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .menu-container ul li {
+    width: 110px;
+    height: 40px;
+  }
+  .menu-container ul .active {
+    width: 110px;
+    height: 40px;
+  }
+}
+/* Large xl */
+@media (min-width: 1400px) {
+  .menu-container ul li {
+    width: 110px;
+    height: 40px;
+  }
+  .menu-container ul .active {
+    width: 110px;
+    height: 40px;
+  }
+}
+.menu-container ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.menu-container ul li {
+  /* background-color: #d5c7c6; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  color: black;
+  border: 3px solid rgb(239, 218, 218);
+}
+.menu-container ul .active {
+  background-color: #ec6458;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+.menu-container ul .active li {
+  color: white;
+}
+.menu-container .section1menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+}
+.menu-container .section1menu-container .data-menu {
+  width: 267px;
+  height: 428px;
+  border: 2px solid rgb(213, 232, 233);
+  border-radius: 10px;
+}
+
+.menu-container .section1menu-container .data-menu img {
+  width: 267px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 10px;
+}
